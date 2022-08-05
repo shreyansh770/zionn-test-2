@@ -21,6 +21,7 @@ function App() {
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/signin" element={<Signin />} />
           <Route exact path="/onboarding" element={<Onboardingflow />} />
+          <Route exact path="/company/name/details/" element={<SidebarP />} />
         </Routes>
       </BrowserRouter>
     </div>
